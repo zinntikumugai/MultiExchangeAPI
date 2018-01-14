@@ -2,3 +2,6 @@ vendor/
 vendor/*
 
 setting.php
+
+test/
+test/*
