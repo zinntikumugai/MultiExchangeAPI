@@ -1,7 +1,7 @@
 <?php
 
-require_once __DIR__ ."/../vendor/autoload.php";
-require_once __DIR__ ."/Util.php";
+require_once __DIR__ .'/../vendor/autoload.php';
+require_once __DIR__ .'/Util.php';
 
 use mpyw\Co\Co;
 use mpyw\Co\CURLException;
