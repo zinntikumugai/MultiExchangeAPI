@@ -17,6 +17,10 @@ class Zaif extends BaseModel {
         return yield Util::get($url);
     }
 
+    public function makeMarket($fast, $second) {
+        return $fast .self::SYMBOL .$second;
+    }
+
     public static function pair($marketname = 'all') {
         $data = yield self::pub('currency_pairs', $marketname);
         return $data;
