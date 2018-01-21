@@ -7,7 +7,7 @@ require_once __DIR__ .'/BaseModel.php';
 class Zaif extends BaseModel {
 
     const NAME = 'Zaif';
-    const APIVER = '1.07.00';
+    const APIVER = '1.1.1';
     const SYMBOL = '_';
     const BASEURL = 'https://api.zaif.jp/api/1/';
 
