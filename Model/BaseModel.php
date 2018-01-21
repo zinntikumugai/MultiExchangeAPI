@@ -25,10 +25,11 @@ class BaseModel {
     public static function getAccessEcho($marketName) {
         return self::Name ." <- " .$marketName;
     }
-
-    public static function makeMarket($fast, $second) {
-        return $fst .self::SYMBOL .$second;
+/*
+    public function makeMarket($fast, $second) {
+        return $fast .self::SYMBOL .$second;
     }
+    */
 
     /*
     * 表示用、桁区切りと小数点以下の不要0の除去
